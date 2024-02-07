@@ -1,2 +1,2 @@
-x=("apple","banana","cherry")
+x=("apple","banana","cherry", "cherry")
 print(type(x))

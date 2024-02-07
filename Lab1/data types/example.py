@@ -32,7 +32,7 @@ print(x) #('apple', 'banana', 'cherry')
 print(type(x)) #<class 'tuple'>
 
 
-x = range(6)
+x = range(3,6)
 print(x) #range(0, 6)
 print(type(x)) #<class 'range'>
 
@@ -45,7 +45,6 @@ print(type(x)) #<class 'frozenset'>
 x = True
 print(x) #True
 print(type(x)) #<class 'bool'>
-
 
 x = b"Hello"
 print(x) #b'Hello'
@@ -65,3 +64,5 @@ print(type(x)) #<class 'memoryview'>
 x = None
 print(x) #None
 print(type(x)) #<class 'NoneType'>
+
+
